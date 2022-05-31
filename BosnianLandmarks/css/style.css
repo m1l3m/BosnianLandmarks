@@ -8,14 +8,10 @@ body {
     background-size: contain;
     /*background-position: 50%, 50%, 50%, 50%;*/
     background-position: bottom center, 50%, 50%;
-
-
-
 }
 
 .sadrzaj {
     background-color: lightgrey;
-
 }
 
 .navbar {
@@ -23,7 +19,6 @@ body {
     position: fixed;
     font-size: large;
     font-style: oblique;
-
 }
 
 header {
@@ -106,16 +101,15 @@ header .overlay {
         opacity: 0;
         transform: rotate(45deg) translate(-20px, -20px);
     }
-
     50% {
         opacity: 1;
     }
-
     100% {
         opacity: 0;
         transform: rotate(45deg) translate(20px, 20px);
     }
 }
+
 
 /*
 #exTab1 .ul>li .active {
@@ -145,19 +139,21 @@ header .overlay {
     /*background-color: #428bca;*/
 }
 
+
 /*
 #navText .navbar-nav>li>a {
     color: white;
 }*/
 
-/*------------------------------------------*/
 
 /*------------------------------------------*/
 
 
+/*------------------------------------------*/
 
 
 /* Media Query for devices withi coarse pointers and no hover functionality */
+
 
 /* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
 
@@ -165,7 +161,6 @@ header .overlay {
     header {
         background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
     }
-
     header video {
         display: none;
     }
