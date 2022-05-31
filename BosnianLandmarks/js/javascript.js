@@ -2,7 +2,7 @@ document.getElementById("arrows").addEventListener("click", myFunction);
 
 function myFunction() {
 
-    document.getElementById("prikaz").scrollIntoView();
+    document.getElementById("prikaz").scrollIntoView({ behavior: 'smooth' });
 }
 
 $(document).ready(function() {
